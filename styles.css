@@ -6,3 +6,52 @@ dark-blue - #134d71;
 white - #ffffff;
 black - #000000;
 */
+
+
+body {
+  font-family: "Quicksand";
+  font-size: 25px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.message-type-box{
+  color: #000000;
+}
+
+html {
+  height: 100%;
+  background: linear-gradient(#134d71, #78a7c6, #f7e4bf);
+}
+
+.box1 {
+  width: 500px;
+  height: 70px;
+  border-radius: 8px;
+  background-color: white;
+  display: block;
+  text-align: center;
+  padding: 10px;
+  margin: auto;
+}
+
+.message-button {
+  display: block;
+  border-radius: 8px;
+  color: white;
+  /* width: 200px;
+  height: 50px; */
+
+  text-align: center;
+}
+
+.box2 {
+  background-color: white;
+  width: 600px;
+  height: 100px;
+
+}
+
+#img {
+  height: 85%;
+}
