@@ -6,25 +6,29 @@
     <title>Self Care Center</title>
   </head>
   <body>
+    <wrapper class "wrapper">
     <section class="main-page">
       <h1 class="main-page-title">✨ Self Care Center ✨</h1>
       <h3 class="main-page-message">Which type of message?</h3>
       <div class="box1">
       <form class="message-type-box">
-        <input class="affirmation-input" type="radio" name = "radio">
+        <input id="affirmation-input" type="radio" name = "radio">
       <label for="affirmation">affirmation</label>
-      <input class="mantra-input" type="radio" name = "radio">
+      <input id="mantra-input" type="radio" name = "radio">
       <label for="mantra">mantra</label>
-      </div>
-    <div class="message-button">
-      <button class="message-type-box-button">Receive Message</button>
+      <div>
+      <button class="message-button">Receive Message</button>
     </div>
-    <!-- </div> -->
+    </div>
     </form>
   </section>
   <div class="box2">
-    <img id=img src="./assets/meditate.svg" alt='meditate-icon'>
-   </div>
+    <img class="buddah"id=img src="./assets/meditate.svg" alt='meditate-icon'>
+  <section class="random-message">
+     <h3 class="message-text"></h3>
+      </div>
+   </section>
     <script type="text/javascript" src="main.js"></script>
+  </wrapper>
   </body>
 </html>
